@@ -1,4 +1,4 @@
-# 🧠🤖 Awesome-Think-With-Images
+# Awesome-Scaling-Environments
 
 <!-- <div align="center">
   <img src="logo.png" alt="Logo" width="300">
