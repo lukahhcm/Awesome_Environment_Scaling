@@ -1,4 +1,4 @@
-# Awesome-Scaling-Environments
+# 🌊 Awesome-Scaling-Environments
 
 <!-- <div align="center">
   <img src="logo.png" alt="Logo" width="300">
@@ -60,6 +60,14 @@ We structure this collection along a trajectory of increasing cognitive autonomy
 
 This collection is for researchers, developers, and enthusiasts eager to explore the forefront of AI that can truly see, reason, and imagine. -->
 
+Welcome to **Awesome-Scaling-Environments!** The field of LLM agents is entering a new era — moving beyond static datasets towards a paradigm where **environments become active data producers, continuously generating tasks and feedback to drive agent evolution**. This repository is the first comprehensive resource that systematically curates the research enabling this shift. We structure this collection along two fundamental axes, as detailed in our survey:
+
+- **Scaling task generation** is the ability of environments to continually create challenging, diverse, and realistic tasks that foster generalization. It develops along two directions: task complexity, which captures the structural and dynamic nature of challenges, and data collection, which enriches the realism of interaction data from tools, humans, and other agents.
+
+- **Scaling feedback** concerns how environments evaluate and guide agent behavior. It involves increasing the density and granularity of signals, improving automation and objectivity to reduce human supervision, and strengthening robustness against noise, exploitation, and failures. 
+
+Together, these two axes define environment scaling as a first-class paradigm for advancing LLM agents toward greater autonomy and adaptability.
+
 ---
 
 
@@ -94,168 +102,96 @@ This collection is for researchers, developers, and enthusiasts eager to explore
   - [Star History](#star-history) -->
 
 ---
+## 🎯 Scaling Task Generation
+*Scaling task generation requires producing complex challenges that build higher-order abilities and collecting rich, realistic datasets, organized along task complexity and data collection.*
+### Scaling Task Complexity
+#### ➤ Static Complexity
+*Static complexity moves from single-step commands to hierarchical and dependency-rich tasks.*
 
-<!-- ## 🧭 The Three-Stage Evolution of Thinking with Images
+#### ➤ Dynamic Complexity
+*Dynamic environments provide signals beyond stationarity, thus preventing overfitting.*
+- [ARE: Scaling Up Agent Environments and Evaluations](https://arxiv.org/abs/2509.17158) ![](https://img.shields.io/badge/abs-2025.09-red)
+- [EvoCurr: Self-evolving Curriculum with Behavior Code Generation for Complex Decision-making](https://arxiv.org/abs/2508.09586) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [R-Zero: Self-Evolving Reasoning LLM from Zero Data](https://arxiv.org/abs/2508.05004) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [Eurekaverse: Environment Curriculum Generation via Large Language Models](https://arxiv.org/abs/2411.01775) ![](https://img.shields.io/badge/abs-2024.11-red)
+- [WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning](https://arxiv.org/abs/2411.02337) ![](https://img.shields.io/badge/abs-2024.11-red)
+- [AgentGen: Enhancing Planning Abilities for Large Language Model based Agent via Environment and Task Generation](https://arxiv.org/abs/2408.00764) ![](https://img.shields.io/badge/abs-2024.08-red) 
+- [AgentGym: Evolving Large Language Model-based Agents across Diverse Environments](https://arxiv.org/abs/2406.04151) ![](https://img.shields.io/badge/abs-2024.06-red) 
+- [EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents](https://arxiv.org/abs/2403.12014) ![](https://img.shields.io/badge/abs-2024.03-red)
 
-*This section provides a conceptual map to navigate the paper list. The following papers are organized according to the primary mechanism they employ, aligning with the three-stage framework from our survey.* -->
+#### ➤ Task Diversity
+*Robust and generalizable LLM agents emerge from diverse tasks, environments, and interactions.*
+- [R-Zero: Self-Evolving Reasoning LLM from Zero Data](https://arxiv.org/abs/2508.05004) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [AgentSense: Virtual Sensor Data Generation Using LLM Agents in Simulated Home Environments](https://arxiv.org/abs/2506.11773) ![](https://img.shields.io/badge/abs-2025.06-red)
+- [AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories](https://arxiv.org/abs/2410.07706) ![](https://img.shields.io/badge/abs-2024.10-red)
+- [AgentGym: Evolving Large Language Model-based Agents across Diverse Environments](https://arxiv.org/abs/2406.04151) ![](https://img.shields.io/badge/abs-2024.06-red) 
 
----
-<!-- 
-## 🛠️ Stage 1: Tool-Driven Visual Exploration
+### Scaling Data Collection
+#### ➤ Interaction Scaling
+*Expanding the richness of interaction data while reducing the difficulty of collection.*
+- [Towards General Agentic Intelligence via Environment Scaling](https://arxiv.org/abs/2509.13311) ![](https://img.shields.io/badge/abs-2025.09-red)
+- [MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers](https://arxiv.org/abs/2508.14704) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers](https://www.arxiv.org/abs/2508.20453) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool Use Benchmark](https://arxiv.org/abs/2508.07575) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [Procedural Environment Generation for Tool-Use Agents](https://arxiv.org/abs/2506.11045) ![](https://img.shields.io/badge/abs-2025.06-red)
+- [AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents](https://arxiv.org/abs/2407.18901) ![](https://img.shields.io/badge/abs-2024.07-red)
+- [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206) ![](https://img.shields.io/badge/abs-2022.07-red)
 
-*In this stage, the model acts as a planner, orchestrating a predefined suite of external visual tools. Intelligence is demonstrated by selecting the right tool for the right sub-task.*
-
-### ➤ Prompt-Based Approaches
-*Leveraging in-context learning to guide tool use without parameter updates.*
-- [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](https://arxiv.org/abs/2204.00598) ![](https://img.shields.io/badge/abs-2022.04-red)
-- [PromptCap: Prompt-Guided Task-Aware Image Captioning](https://arxiv.org/abs/2211.09699) ![](https://img.shields.io/badge/abs-2022.11-red)
-- [MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action](https://arxiv.org/abs/2303.11381) ![](https://img.shields.io/badge/abs-2023.03-red)
-- [What does CLIP know about a red circle? Visual prompt engineering for VLMs](https://arxiv.org/abs/2304.06712) ![](https://img.shields.io/badge/abs-2023.04-red)
-- [Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V](https://arxiv.org/abs/2310.11441) ![](https://img.shields.io/badge/abs-2023.10-red)
-- [DetToolChain: A New Prompting Paradigm to Unleash Detection Ability of MLLM](https://arxiv.org/abs/2403.12488) ![](https://img.shields.io/badge/abs-2024.03-red)
-- [Chain-of-Spot: Interactive Reasoning Improves Large Vision-Language Models](https://arxiv.org/abs/2403.12966) ![](https://img.shields.io/badge/abs-2024.03-red)
-- [Mind's Eye of LLMs: Visualization-of-Thought Elicits Spatial Reasoning in Large Language Models](https://arxiv.org/abs/2404.03622) ![](https://img.shields.io/badge/abs-2024.04-red)
-- [ZoomEye: Enhancing Multimodal LLMs with Human-Like Zooming Capabilities through Tree-Based Image Exploration](https://arxiv.org/abs/2411.16044) ![](https://img.shields.io/badge/abs-2024.11-red)
-- [DyFo: A Training-Free Dynamic Focus Visual Search for Enhancing LMMs in Fine-Grained Visual Understanding](https://arxiv.org/abs/2504.14920) ![](https://img.shields.io/badge/abs-2025.04-red)
-- [VisuoThink: Empowering LVLM Reasoning with Multimodal Tree Search](https://arxiv.org/abs/2504.09130) ![](https://img.shields.io/badge/abs-2025.04-red)
-- [Visual Thoughts: A Unified Perspective of Understanding Multimodal Chain-of-Thought](https://arxiv.org/abs/2505.15510) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [Visual Abstract Thinking Empowers Multimodal Reasoning](https://arxiv.org/abs/2505.20164) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [MLLMs Know Where to Look: Training-free Perception of Small Visual Details with Multimodal LLMs](https://arxiv.org/abs/2502.17422) ![](https://img.shields.io/badge/abs-2025.03-red)
-
-### ➤ SFT-Based Approaches
-*Fine-tuning models on data demonstrating how to invoke tools and integrate their outputs.*
-- [LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](https://arxiv.org/abs/2311.05437) ![](https://img.shields.io/badge/abs-2023.11-red)
-- [V*: Guided Visual Search as a Core Mechanism in Multimodal LLMs](https://arxiv.org/abs/2312.14135) ![](https://img.shields.io/badge/abs-2023.12-red)
-- [CogCoM: Train Large Vision-Language Models Diving into Details through Chain of Manipulations](https://arxiv.org/abs/2402.04236) ![](https://img.shields.io/badge/abs-2024.02-red)
-- [Visual CoT: Unleashing Chain-of-Thought Reasoning in Multi-Modal Language Models](https://arxiv.org/abs/2403.16999) ![](https://img.shields.io/badge/abs-2024.03-red)
-- [Instruction-Guided Visual Masking](https://arxiv.org/abs/2405.19783) ![](https://img.shields.io/badge/abs-2024.05-red)
-- [From the Least to the Most: Building a Plug-and-Play Visual Reasoner via Data Synthesis](https://arxiv.org/abs/2406.19934) ![](https://img.shields.io/badge/abs-2024.06-red)
-- [TACO: Learning Multi-modal Action Models with Synthetic Chains-of-Thought-and-Action](https://arxiv.org/abs/2412.05479) ![](https://img.shields.io/badge/abs-2024.12-red)
-- [CMMCoT: Enhancing Complex Multi-Image Comprehension via Multi-Modal Chain-of-Thought and Memory Augmentation](https://arxiv.org/abs/2503.05255) ![](https://img.shields.io/badge/abs-2025.03-red)
-- [UniVG-R1: Reasoning Guided Universal Visual Grounding with Reinforcement Learning](https://arxiv.org/abs/2505.14231) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [Don’t Look Only Once: Towards Multimodal Interactive Reasoning with Selective Visual Revisitation](https://arxiv.org/pdf/2505.18842) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [VGR: Visual Grounded Reasoning](https://arxiv.org/abs/2506.11991) ![](https://img.shields.io/badge/abs-2025.06-red)
-- [Multi-Step Visual Reasoning with Visual Tokens Scaling and Verification](https://arxiv.org/abs/2506.07235) ![](https://img.shields.io/badge/abs-2025.06-red)
-
-
-### ➤ RL-Based Approaches
-*Using rewards to train agents to discover optimal tool-use strategies.*
-- [Seg-Zero: Reasoning-Chain Guided Segmentation via Cognitive Reinforcement](https://arxiv.org/abs/2503.06520) ![](https://img.shields.io/badge/abs-2025.03-red)
-- [GRIT: Teaching MLLMs to Think with Images](https://arxiv.org/abs/2505.15879) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [Point-RFT: Improving Multimodal Reasoning with Visually Grounded Reinforcement Finetuning](https://arxiv.org/abs/2505.19702) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [OpenThinkIMG: Learning to Think with Images via Visual Tool Reinforcement Learning](https://arxiv.org/abs/2505.08617) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [VisionReasoner: Unified Visual Perception and Reasoning via Reinforcement Learning](https://arxiv.org/abs/2505.12081) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning](https://arxiv.org/abs/2505.14362) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [Chain-of-Focus: Adaptive Visual Search and Zooming for Multimodal Reasoning via RL](https://arxiv.org/abs/2505.15436) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [Pixel Reasoner: Incentivizing Pixel-Space Reasoning with Curiosity-Driven Reinforcement Learning](https://arxiv.org/abs/2505.15966) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [One RL to See Them All: Visual Triple Unified Reinforcement Learning](https://arxiv.org/abs/2505.18129) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [UniVG-R1: Reasoning Guided Universal Visual Grounding with Reinforcement Learning](https://arxiv.org/abs/2505.14231) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [VisualToolAgent (VisTA): A Reinforcement Learning Framework for Visual Tool Selection](https://arxiv.org/abs/2505.20289) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [Active-O3: Empowering Multimodal Large Language Models with Active Perception via GRPO](https://arxiv.org/abs/2505.21457) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing](https://arxiv.org/abs/2506.09965) ![](https://img.shields.io/badge/abs-2025.06-red)
----
-
-## 💻 Stage 2: Programmatic Visual Manipulation
-
-*Here, models evolve into "visual programmers," generating executable code (e.g., Python) to create custom visual analyses. This unlocks compositional flexibility and interpretability.*
-
-### ➤ Prompt-Based Approaches
-*Guiding models to generate code as a transparent, intermediate reasoning step.*
-- [Visual programming: Compositional visual reasoning without training](https://arxiv.org/abs/2211.11559) ![](https://img.shields.io/badge/abs-2022.11-red)
-- [ViperGPT: Visual Inference via Python Execution for Reasoning](https://arxiv.org/abs/2303.08128) ![](https://img.shields.io/badge/abs-2023.03-red)
-- [Visual sketchpad: Sketching as a visual chain of thought for multimodal language models](https://arxiv.org/abs/2406.09403) ![](https://img.shields.io/badge/abs-2024.06-red)
-- [VipAct: Visual-perception enhancement via specialized vlm agent collaboration and tool-use](https://arxiv.org/abs/2410.16400) ![](https://img.shields.io/badge/abs-2024.10-red)
-- [SketchAgent: Language-Driven Sequential Sketch Generation](https://arxiv.org/abs/2411.17673) ![](https://img.shields.io/badge/abs-2024.11-red)
-- [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers?](https://arxiv.org/abs/2412.13810) ![](https://img.shields.io/badge/abs-2024.12-red)
-- [MMFactory: A Universal Solution Search Engine for Vision-Language Tasks](https://arxiv.org/abs/2412.18072) ![](https://img.shields.io/badge/abs-2024.12-red)
-- [ReFocus: Visual Editing as a Chain of Thought for Structured Image Understanding](https://arxiv.org/abs/2501.05452) ![](https://img.shields.io/badge/abs-2025.01-red)
-- [Interactive Sketchpad: A Multimodal Tutoring System for Collaborative, Visual Problem-Solving](https://arxiv.org/abs/2503.16434) ![](https://img.shields.io/badge/abs-2025.03-red)
-
-### ➤ SFT-Based Approaches
-*Distilling programmatic logic into models or using code to bootstrap high-quality training data.*
-- [Visual Program Distillation: Distilling Tools and Programmatic Reasoning into Vision-Language Models](https://arxiv.org/abs/2312.03052) ![](https://img.shields.io/badge/abs-2023.12-red)
-- [ProVision: Programmatically Scaling Vision-centric Instruction Data for Multimodal Language Models](https://arxiv.org/abs/2412.07012) ![](https://img.shields.io/badge/abs-2024.12-red)
-- [Scaling Text-Rich Image Understanding via Code-Guided Synthetic Multimodal Data Generation](https://arxiv.org/abs/2502.14846) ![](https://img.shields.io/badge/abs-2025.02-red)
-- [Advancing vision-language models in front-end development via data synthesis](https://arxiv.org/abs/2503.01619) ![](https://img.shields.io/badge/abs-2025.03-red)
-- [MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning](https://arxiv.org/abs/2505.10557) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [PyVision: Agentic Vision with Dynamic Tooling](https://arxiv.org/abs/2507.07998) ![https://img.shields.io/badge/abs-2025.07-red]
-
-### ➤ RL-Based Approaches
-*Optimizing code generation policies using feedback from execution results.*
-- [Visual Agentic Reinforcement Fine-Tuning](https://arxiv.org/abs/2505.14246) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [ProgRM: Build Better GUI Agents with Progress Rewards](https://arxiv.org/abs/2505.18121) ![](https://img.shields.io/badge/abs-2025.05-red)
+#### ➤ Realism Scaling
+*Increasing the authenticity of the interaction data.*
+- [Towards General Agentic Intelligence via Environment Scaling](https://arxiv.org/abs/2509.13311) ![](https://img.shields.io/badge/abs-2025.09-red)
+- [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://arxiv.org/abs/2508.08791) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [Making REST APIs Agent-Ready: From OpenAPI to Model Context Protocol Servers for Tool-Augmented LLMs](https://arxiv.org/abs/2507.16044v2) ![](https://img.shields.io/badge/abs-2025.07-red)
+- [$\tau^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment](https://arxiv.org/abs/2506.07982) ![](https://img.shields.io/badge/abs-2025.06-red)
+- [APIGen-MT: Agentic Pipeline for Multi-Turn Data Generation via Simulated Agent-Human Interplay](https://arxiv.org/abs/2504.03601) ![](https://img.shields.io/badge/abs-2025.04-red)
+- [WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/abs/2501.07572) ![](https://img.shields.io/badge/abs-2025.02-red)
+- [AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society](https://arxiv.org/abs/2502.08691) ![](https://img.shields.io/badge/abs-2025.02-red)
+- [ToolHop: A Query-Driven Benchmark for Evaluating Large Language Models in Multi-Hop Tool Use](https://arxiv.org/abs/2501.02506) ![](https://img.shields.io/badge/abs-2025.01-red)
+- [OASIS: Open Agent Social Interaction Simulations with One Million Agents](https://arxiv.org/abs/2411.11581) ![](https://img.shields.io/badge/abs-2024.11-red)
+- [$\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains](https://arxiv.org/abs/2406.12045) ![](https://img.shields.io/badge/abs-2024.06-red)
+- [RestGPT: Connecting Large Language Models with Real-World RESTful APIs](https://arxiv.org/abs/2306.06624) ![](https://img.shields.io/badge/abs-2023.06-red)
+- [Tongyi DeepResearch: A New Era of Open-Source AI Researchers](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/)
 
 ---
+## ⚖️ Scaling Feedback
+*The evolution of LLM agents hinges on scaling environmental feedback, along dimensions of density and granularity, automation and objectivity, and robustness.*
+### ➤ Density & Granuality
+*Dense, multifaceted feedback enables clearer attribution and stronger reasoning.*
+- [Reinforcement Learning with Rubric Anchors](https://arxiv.org/abs/2508.12790) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains](https://arxiv.org/abs/2507.17746) ![](https://img.shields.io/badge/abs-2025.07-red)
+- [What Are Step-Level Reward Models Rewarding? Counterintuitive Findings from MCTS-Boosted Mathematical Reasoning](https://arxiv.org/abs/2412.15904) ![](https://img.shields.io/badge/abs-2024.12-red)
+- [On Designing Effective RL Reward at Training Time for LLM Reasoning](https://arxiv.org/abs/2410.15115) ![](https://img.shields.io/badge/abs-2024.10-red)
 
-## 🎨 Stage 3: Intrinsic Visual Imagination
+### ➤ Automation & Objectivity
+*From RLHF to RLAIF:*
+- [JudgeLRM: Large Reasoning Models as a Judge](https://arxiv.org/abs/2504.00050) ![](https://img.shields.io/badge/abs-2025.04-red)
+- [Agentic reward modeling: Integrating human preferences with verifiable correctness signals for reliable reward systems](https://arxiv.org/abs/2502.19328) ![](https://img.shields.io/badge/abs-2025.02-red)
+- [Scaling autonomous agents via automatic reward modeling and planning](https://arxiv.org/abs/2502.12130) ![](https://img.shields.io/badge/abs-2025.02-red)
+- [Generative verifiers: Reward modeling as next-token prediction](https://arxiv.org/abs/2408.15240) ![](https://img.shields.io/badge/abs-2024.08-red)
 
-*The most advanced stage, where models achieve full cognitive autonomy. They generate new images or visual representations internally as integral steps in a closed-loop thought process.*
-
-### ➤ SFT-Based Approaches
-*Training on interleaved text-image data to teach models the grammar of multimodal thought.*
-- [Generating images with multimodal language models](https://arxiv.org/abs/2305.17216) ![](https://img.shields.io/badge/abs-2023.05-red)
-- [NExT-GPT: Any-to-Any Multimodal LLM](https://arxiv.org/abs/2309.05519) ![](https://img.shields.io/badge/abs-2023.09-red)
-- [Minigpt-5: Interleaved vision-and-language generation via generative vokens](https://arxiv.org/abs/2310.02239) ![](https://img.shields.io/badge/abs-2023.10-red)
-- [Generative multimodal models are in-context learners](https://arxiv.org/abs/2312.13286) ![](https://img.shields.io/badge/abs-2023.12-red)
-- [SEED-X: Multimodal Models with Unified Multi-granularity Comprehension and Generation](https://arxiv.org/abs/2404.14396) ![](https://img.shields.io/badge/abs-2024.04-red)
-- [Chameleon: Mixed-Modal Early-Fusion Foundation Models](https://arxiv.org/abs/2405.09818) ![](https://img.shields.io/badge/abs-2024.05-red)
-- [Show-o: One single transformer to unify multimodal understanding and generation](https://arxiv.org/abs/2408.12528) ![](https://img.shields.io/badge/abs-2024.08-red)
-- [Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model](https://arxiv.org/abs/2408.11039) ![](https://img.shields.io/badge/abs-2024.08-red)
-- [Emu3: Next-Token Prediction is All You Need](https://arxiv.org/abs/2409.18869) ![](https://img.shields.io/badge/abs-2024.09-red)
-- [VILA-U: a Unified Foundation Model Integrating Visual Understanding and Generation](https://arxiv.org/abs/2409.04429) ![](https://img.shields.io/badge/abs-2024.09-red)
-- [Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation](https://arxiv.org/abs/2410.13848) ![](https://img.shields.io/badge/abs-2024.10-red)
-- [Metamorph: Multimodal understanding and generation via instruction tuning](https://arxiv.org/abs/2412.14164) ![](https://img.shields.io/badge/abs-2024.12-red)
-- [LMFusion: Adapting Pretrained Language Models for Multimodal Generation](https://arxiv.org/abs/2412.15188) ![](https://img.shields.io/badge/abs-2024.12-red)
-- [TokenFlow: Unified Image Tokenizer for Multimodal Understanding and Generation](https://arxiv.org/abs/2412.03069) ![](https://img.shields.io/badge/abs-2024.12-red)
-- [Dual Diffusion for Unified Image Generation and Understanding](https://arxiv.org/abs/2501.00289) ![](https://img.shields.io/badge/abs-2025.01-red)
-- [Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling](https://arxiv.org/abs/2501.17811) ![](https://img.shields.io/badge/abs-2025.01-red)
-- [Imagine while Reasoning in Space: Multimodal Visualization-of-Thought](https://arxiv.org/abs/2501.07542) ![](https://img.shields.io/badge/abs-2025.01-red)
-- [GoT: Unleashing Reasoning Capability of Multimodal Large Language Model for Visual Generation and Editing](https://arxiv.org/abs/2503.10639) ![](https://img.shields.io/badge/abs-2025.03-red)
-- [Cot-vla: Visual chain-of-thought reasoning for vision-language-action models](https://arxiv.org/abs/2503.22020) ![](https://img.shields.io/badge/abs-2025.03-red)
-- [Transfer between Modalities with MetaQueries](https://arxiv.org/abs/2504.06256) ![](https://img.shields.io/badge/abs-2025.04-red)
-- [BLIP3-o: A Family of Fully Open Unified Multimodal Models-Architecture, Training and Dataset](https://arxiv.org/abs/2505.09568) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [Emerging properties in unified multimodal pretraining](https://arxiv.org/abs/2505.14683) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [Mogao: An Omni Foundation Model for Interleaved Multi-Modal Generation](https://arxiv.org/abs/2505.05472) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [Thinking with Generated Images](https://arxiv.org/abs/2505.22525) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [UniFork: Exploring Modality Alignment for Unified Multimodal Understanding and Generation](https://arxiv.org/abs/2506.17202) ![](https://img.shields.io/badge/abs-2025.06-red)
-- [Show-o2: Improved Native Unified Multimodal Models](https://arxiv.org/abs/2506.15564) ![](https://img.shields.io/badge/abs-2025.06-red)
+*From Verifiable to Non-Verifiable Rewards:*
+- [Omni-think: Scaling cross-domain generalization in llms via multi-task rl with hybrid rewards](https://arxiv.org/abs/2507.14783) ![](https://img.shields.io/badge/abs-2025.07-red)
+- [Rlpr: Extrapolating rlvr to general domains without verifiers](https://arxiv.org/abs/2506.18254) ![](https://img.shields.io/badge/abs-2025.06-red)
+- [Writing-zero: Bridge the gap between non-verifiable tasks and verifiable rewards](https://arxiv.org/abs/2506.00103) ![](https://img.shields.io/badge/abs-2025.06-red)
+- [General-reasoner: Advancing llm reasoning across all domains](https://arxiv.org/abs/2505.14652) ![](https://img.shields.io/badge/abs-2025.05-red)
+- [Nover: Incentive training for language models via verifier-free reinforcement learning](https://arxiv.org/abs/2505.16022) ![](https://img.shields.io/badge/abs-2025.05-red)
+- [Nemotron-crossthink: Scaling self-learning beyond math reasoning](https://arxiv.org/abs/2504.13941) ![](https://img.shields.io/badge/abs-2025.04-red)
+- [Crossing the reward bridge: Expanding rl with verifiable rewards across diverse domains](https://arxiv.org/abs/2503.23829) ![](https://img.shields.io/badge/abs-2025.03-red)
 
 
-### ➤ RL-Based Approaches
-*Empowering models to discover generative reasoning strategies through trial, error, and reward.*
-- [Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step](https://arxiv.org/abs/2501.13926) ![](https://img.shields.io/badge/abs-2025.01-red)
-- [Visual Planning: Let's Think Only with Images](https://arxiv.org/abs/2505.11409) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT](https://arxiv.org/abs/2505.00703) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [MindOmni: Unleashing Reasoning Generation in Vision Language Models with RGPO](https://arxiv.org/pdf/2505.13031) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [GoT-R1: Unleashing Reasoning Capability of MLLM for Visual Generation with Reinforcement Learning](https://arxiv.org/abs/2505.17022) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [Delving into RL for Image Generation with CoT: A Study on DPO vs. GRPO](https://arxiv.org/abs/2505.17017) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [Robotic Control via Embodied Chain-of-Thought Reasoning](https://arxiv.org/abs/2407.08693) ![](https://img.shields.io/badge/abs-2025.03-red)
-- [FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving](https://arxiv.org/abs/2505.17685)![](https://img.shields.io/badge/abs-2025.05-red)
-- [ControlThinker: Unveiling Latent Semantics for Controllable Image Generation through Visual Reasoning](https://arxiv.org/abs/2506.03596)![](https://img.shields.io/badge/abs-2025.06-red)
+### ➤ Robustness
+*Reward-Level:*
+- [Mona: Myopic optimization with non-myopic approval can mitigate multi-step reward hacking](https://arxiv.org/abs/2501.13011) ![](https://img.shields.io/badge/abs-2025.01-red)
+- [Navigating noisy feedback: Enhancing reinforcement learning with error-prone language models](https://arxiv.org/abs/2410.17389) ![](https://img.shields.io/badge/abs-2024.10-red)
 
----
+*Interaction-Level:*
+- [Trinity-rft: A general-purpose and unified framework for reinforcement fine-tuning of large language models](https://arxiv.org/abs/2505.17826) ![](https://img.shields.io/badge/abs-2025.05-red)
+- [Tongyi DeepResearch: A New Era of Open-Source AI Researchers](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/)
+
 
 ## 📊 Evaluation & Benchmarks
 
-*Essential resources for measuring progress. These benchmarks are specifically designed to test the multi-step, constructive, and simulative reasoning capabilities required for "Thinking with Images".*
 
-### ➤ Benchmarks for Thinking with Images
-- [A Cognitive Evaluation Benchmark of Image Reasoning and Description for Large Vision-Language Models](https://arxiv.org/abs/2402.18409) ![](https://img.shields.io/badge/abs-2024.02-red)
-- [m&m's: A Benchmark to Evaluate Tool-Use for multi-step multi-modal Tasks](https://arxiv.org/abs/2403.11085) ![](https://img.shields.io/badge/abs-2024.03-red)
-- [Vgbench: Evaluating large language models on vector graphics understanding and generation](https://arxiv.org/abs/2407.10972) ![](https://img.shields.io/badge/abs-2024.07-red)
-- [ARC Prize 2024: Technical Report](https://arxiv.org/abs/2412.04604) ![](https://img.shields.io/badge/abs-2024.12-red)
-- [CrossWordBench: Evaluating the Reasoning Capabilities of LLMs and LVLMs with Controllable Puzzle Generation](https://arxiv.org/abs/2504.00043) ![](https://img.shields.io/badge/abs-2025.04-red)
-- [WorldScore: A Unified Evaluation Benchmark for World Generation](https://arxiv.org/abs/2504.00983) ![](https://img.shields.io/badge/abs-2025.04-red)
-- [MME-Unify: A Comprehensive Benchmark for Unified Multimodal Understanding and Generation Models](https://arxiv.org/abs/2504.03641) ![](https://img.shields.io/badge/abs-2025.04-red)
-- [PointArena: Probing Multimodal Grounding Through Language-Guided Pointing](https://arxiv.org/abs/2505.09990) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [ChartMuseum: Testing Visual Reasoning Capabilities of Large Vision-Language Models](https://arxiv.org/abs/2505.13444) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [Can MLLMs Guide Me Home? A Benchmark Study on Fine-Grained Visual Reasoning from Transit Maps](https://arxiv.org/abs/2505.18675) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [PhyX: Does Your Model Have the "Wits" for Physical Reasoning?](https://arxiv.org/abs/2505.15929) ![](https://img.shields.io/badge/abs-2025.06-red)
-- [OCR-Reasoning Benchmark: Unveiling the True Capabilities of MLLMs in Complex Text-Rich Image Reasoning](https://arxiv.org/abs/2505.17163)  ![](https://img.shields.io/badge/abs-2025.05-red)  
-- [VisualQuality-R1: Reasoning-Induced Image Quality Assessment via Reinforcement Learning to Rank](https://arxiv.org/abs/2505.14460)  ![](https://img.shields.io/badge/abs-2025.05-red)
-- [GEMeX-ThinkVG: Towards Thinking with Visual Grounding in Medical VQA via Reinforcement Learning](https://arxiv.org/pdf/2506.17939) ![](https://img.shields.io/badge/abs-2025.06-red)
-- [ViC-Bench: Benchmarking Visual-Interleaved Chain-of-Thought Capability in MLLMs with Free-Style Intermediate State Representations](https://arxiv.org/abs/2505.14404)  ![](https://img.shields.io/badge/abs-2025.05-red)
---- -->
 <!-- 
 ## 🙏 Contributing & Citation
 
