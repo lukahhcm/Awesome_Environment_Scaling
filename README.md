@@ -15,7 +15,7 @@ Learning from Interaction: A Survey</strong></a>
   <a href="">
     <img src="https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper">
   </a>
-  <a href="https://github.com/lukahhcm/Awesome_Scaling_Environments">
+  <a href="https://github.com/lukahhcm/Awesome_Environment_Scaling">
     <img src="https://img.shields.io/badge/Environment_Scaling-000000?style=for-the-badge&logo=github&logoColor=000&logoColor=white" alt="Github">
   </a>
   <a href="">
@@ -66,7 +66,25 @@ This collection is for researchers, developers, and enthusiasts eager to explore
 -   **[2025-05]** We are excited to release **[OpenThinkIMG](https://github.com/OpenThinkIMG/OpenThinkIMG)**, the first dedicated end-to-end open-source framework designed to empower LVLMs to truly **think with images**! For ease of use, we've configured a Docker environment. We warmly invite the community to explore, use, and contribute. -->
 
 ## 📜 Table of Contents
-[toc]
+- [🏖️ Awesome-Environment-Scaling](#️-awesome-environment-scaling)
+  - [🎉 Introduction](#-introduction)
+  - [📜 Table of Contents](#-table-of-contents)
+  - [🎯 Stage 1: Task Generation](#-stage-1-task-generation)
+    - [➤ Complexity Scaling](#-complexity-scaling)
+    - [➤ Dynamic Scaling](#-dynamic-scaling)
+    - [➤ Diversity Scaling](#-diversity-scaling)
+  - [🧗 Stage 2: Task Execution](#-stage-2-task-execution)
+    - [➤ Interactivity Scaling](#-interactivity-scaling)
+    - [➤ Realism Scaling](#-realism-scaling)
+  - [⚖️ Stage 3: Feedback](#️-stage-3-feedback)
+    - [➤ Density Scaling](#-density-scaling)
+    - [➤ Granularity Scaling](#-granularity-scaling)
+    - [➤ Automation Scaling](#-automation-scaling)
+    - [➤ Objectivity Scaling](#-objectivity-scaling)
+    - [➤ Robustness Scaling](#-robustness-scaling)
+  - [🙏 Contributing \& Citation](#-contributing--citation)
+  - [Star History](#star-history)
+
 
 ## 🎯 Stage 1: Task Generation
 In the task generation stage, the environment is required to propose challenging tasks to push the agent’s capabilities forward. Scaling at this stage therefore targets three facets of task supply: increasing difficulty, introducing dynamics, and expanding diversity. Accordingly, we organize representative approaches into three directions: *complexity scaling*, *dynamic scaling*, and *diversity scaling*.
