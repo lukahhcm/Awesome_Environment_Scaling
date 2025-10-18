@@ -202,11 +202,17 @@ Process-based Rewards
 
 
 ### ➤ Robustness Scaling
-- [Trinity-rft: A general-purpose and unified framework for reinforcement fine-tuning of large language models](https://arxiv.org/abs/2505.17826) ![](https://img.shields.io/badge/abs-2025.05-red)
-- [Tongyi DeepResearch: A New Era of Open-Source AI Researchers](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/)
+Reward-level
+- [Reward Hacking Mitigation using Verifiable Composite Rewards](https://arxiv.org/abs/2509.15557) ![](https://img.shields.io/badge/abs-2025.09-red)
+- [Reward Shaping to Mitigate Reward Hacking in RLHF](https://arxiv.org/abs/2502.18770) ![](https://img.shields.io/badge/abs-2025.02-red)
 - [Mona: Myopic optimization with non-myopic approval can mitigate multi-step reward hacking](https://arxiv.org/abs/2501.13011) ![](https://img.shields.io/badge/abs-2025.01-red)
 - [Navigating noisy feedback: Enhancing reinforcement learning with error-prone language models](https://arxiv.org/abs/2410.17389) ![](https://img.shields.io/badge/abs-2024.10-red)
+- [RRM: Robust Reward Model Training Mitigates Reward Hacking](https://arxiv.org/abs/2409.13156) ![](https://img.shields.io/badge/abs-2024.09-red)
+- [InfoRM: Mitigating Reward Hacking in RLHF via Information-Theoretic Reward Modeling](https://arxiv.org/abs/2402.09345) ![](https://img.shields.io/badge/abs-2024.02-red)
 
+Environment-level
+- [Trinity-rft: A general-purpose and unified framework for reinforcement fine-tuning of large language models](https://arxiv.org/abs/2505.17826) ![](https://img.shields.io/badge/abs-2025.05-red)
+- [Tongyi DeepResearch: A New Era of Open-Source AI Researchers](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/)
 <!-- ## 📊 Evaluation & Benchmarks -->
 
 ## 🙏 Contributing & Citation
