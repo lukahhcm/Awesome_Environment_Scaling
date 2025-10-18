@@ -134,6 +134,7 @@ Environmental Dynamics
 In the task execution stage, after the agent takes an action, it receives an observation from the environment. Consequently, whether the agent can interact with the environment in real time (interactivity) and whether the returned observations are consistent with real-world scenarios (realism) are both critical to the quality of the resulting experience. 
 ### ➤ Interactivity Scaling
 - [Towards General Agentic Intelligence via Environment Scaling](https://arxiv.org/abs/2509.13311) ![](https://img.shields.io/badge/abs-2025.09-red)
+- [BrowseMaster: Towards Scalable Web Browsing via Tool-Augmented Programmatic Agent Pair](https://arxiv.org/abs/2508.09129) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers](https://arxiv.org/abs/2508.14704) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers](https://www.arxiv.org/abs/2508.20453) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool Use Benchmark](https://arxiv.org/abs/2508.07575) ![](https://img.shields.io/badge/abs-2025.08-red)
