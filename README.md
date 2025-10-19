@@ -177,8 +177,11 @@ Process-based Rewards
 - [On Designing Effective RL Reward at Training Time for LLM Reasoning](https://arxiv.org/abs/2410.15115) ![](https://img.shields.io/badge/abs-2024.10-red)
 
 ### ➤ Granularity Scaling
+- [Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training](https://arxiv.org/abs/2509.21500) ![](https://img.shields.io/badge/abs-2025.09-red)
+- [Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning](https://arxiv.org/abs/2508.16949) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [Reinforcement Learning with Rubric Anchors](https://arxiv.org/abs/2508.12790) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains](https://arxiv.org/abs/2507.17746) ![](https://img.shields.io/badge/abs-2025.07-red)
+- [Checklists Are Better Than Reward Models For Aligning Language Models](https://arxiv.org/abs/2507.18624) ![](https://img.shields.io/badge/abs-2025.07-red)
 - [AdaCtrl: Towards Adaptive and Controllable Reasoning via Difficulty-Aware Budgeting](https://arxiv.org/abs/2505.18822) ![](https://img.shields.io/badge/abs-2025.05-red)
 - [Toolrl: Reward is all tool learning needs](https://arxiv.org/abs/2504.13958) ![](https://img.shields.io/badge/abs-2025.04-red)
 - [R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2503.05592) ![](https://img.shields.io/badge/abs-2025.03-red)
