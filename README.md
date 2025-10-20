@@ -187,6 +187,8 @@ Process-based Rewards
 - [R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2503.05592) ![](https://img.shields.io/badge/abs-2025.03-red)
 
 ### ➤ Automation Scaling
+- [Reinforcement Learning with Rubric Anchors](https://arxiv.org/abs/2508.12790) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains](https://arxiv.org/abs/2507.17746) ![](https://img.shields.io/badge/abs-2025.07-red)
 - [JudgeLRM: Large Reasoning Models as a Judge](https://arxiv.org/abs/2504.00050) ![](https://img.shields.io/badge/abs-2025.04-red)
 - [Agentic reward modeling: Integrating human preferences with verifiable correctness signals for reliable reward systems](https://arxiv.org/abs/2502.19328) ![](https://img.shields.io/badge/abs-2025.02-red)
 - [Scaling autonomous agents via automatic reward modeling and planning](https://arxiv.org/abs/2502.12130) ![](https://img.shields.io/badge/abs-2025.02-red)
@@ -195,6 +197,8 @@ Process-based Rewards
 
 ### ➤ Objectivity Scaling
 - [ARE: Scaling Up Agent Environments and Evaluations](https://arxiv.org/abs/2509.17158) ![](https://img.shields.io/badge/abs-2025.09-red)
+- [Reinforcement Learning with Rubric Anchors](https://arxiv.org/abs/2508.12790) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains](https://arxiv.org/abs/2507.17746) ![](https://img.shields.io/badge/abs-2025.07-red)
 - [Omni-think: Scaling cross-domain generalization in llms via multi-task rl with hybrid rewards](https://arxiv.org/abs/2507.14783) ![](https://img.shields.io/badge/abs-2025.07-red)
 - [Rlpr: Extrapolating rlvr to general domains without verifiers](https://arxiv.org/abs/2506.18254) ![](https://img.shields.io/badge/abs-2025.06-red)
 - [Writing-zero: Bridge the gap between non-verifiable tasks and verifiable rewards](https://arxiv.org/abs/2506.00103) ![](https://img.shields.io/badge/abs-2025.06-red)
@@ -207,6 +211,7 @@ Process-based Rewards
 ### ➤ Robustness Scaling
 Reward-level
 - [Reward Hacking Mitigation using Verifiable Composite Rewards](https://arxiv.org/abs/2509.15557) ![](https://img.shields.io/badge/abs-2025.09-red)
+- [Reinforcement Learning with Rubric Anchors](https://arxiv.org/abs/2508.12790) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [Reward Shaping to Mitigate Reward Hacking in RLHF](https://arxiv.org/abs/2502.18770) ![](https://img.shields.io/badge/abs-2025.02-red)
 - [Mona: Myopic optimization with non-myopic approval can mitigate multi-step reward hacking](https://arxiv.org/abs/2501.13011) ![](https://img.shields.io/badge/abs-2025.01-red)
 - [Navigating noisy feedback: Enhancing reinforcement learning with error-prone language models](https://arxiv.org/abs/2410.17389) ![](https://img.shields.io/badge/abs-2024.10-red)
