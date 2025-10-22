@@ -230,7 +230,11 @@ We welcome contributions! If you have a paper that fits into this framework, ple
 If you find our survey and this repository useful for your research, please consider citing our work:
 
 ```bibtex
-
+@inproceedings{huangscaling,
+  title={Scaling Environments for LLM Agents: Fundamentals, Approaches, and Future Directions},
+  author={Huang, Yuchen and Li, Sijia and Fan, Zhiyuan and LIU, Minghao and Liu, Wei and Fung, Yi R},
+  booktitle={Workshop on Scaling Environments for Agents}
+}
 ```
 
 ## Star History
