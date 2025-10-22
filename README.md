@@ -12,7 +12,7 @@ Learning from Interaction: A Survey</strong></a>
 
 
 <div align="center">
-  <a href="">
+  <a href="https://openreview.net/pdf?id=9axZcDTiJm">
     <img src="https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper">
   </a>
   <a href="https://github.com/lukahhcm/Awesome_Environment_Scaling">
@@ -21,9 +21,6 @@ Learning from Interaction: A Survey</strong></a>
   <a href="">
     <img src="https://img.shields.io/badge/HuggingFace-fcd022?style=for-the-badge&logo=huggingface&logoColor=000" alt="Hugging Face Collection">
   </a>
-  <!-- <a href="https://x.com/SuZhaochen0110/status/1940251163166986333">
-    <img src="https://img.shields.io/badge/Twitter-%23000000.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
-  </a> -->
 </div>
 
 ## 🎉 Introduction
