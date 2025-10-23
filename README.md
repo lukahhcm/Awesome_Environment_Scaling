@@ -227,10 +227,13 @@ We welcome contributions! If you have a paper that fits into this framework, ple
 If you find our survey and this repository useful for your research, please consider citing our work:
 
 ```bibtex
-@inproceedings{huangscaling,
-  title={Scaling Environments for LLM Agents: Fundamentals, Approaches, and Future Directions},
-  author={Huang, Yuchen and Li, Sijia and Fan, Zhiyuan and LIU, Minghao and Liu, Wei and Fung, Yi R},
-  booktitle={Workshop on Scaling Environments for Agents}
+@inproceedings{
+huang2025scaling,
+title={Scaling Environments for {LLM} Agents: Fundamentals, Approaches, and Future Directions},
+author={Yuchen Huang and Sijia Li and Zhiyuan Fan and Minghao LIU and Wei Liu and Yi R. Fung},
+booktitle={Workshop on Scaling Environments for Agents},
+year={2025},
+url={https://openreview.net/forum?id=9axZcDTiJm}
 }
 ```
 
