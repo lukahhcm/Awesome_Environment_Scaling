@@ -5,8 +5,7 @@
 
   <p align="center">
     This repository accompanies our survey paper: <br>
-    <a href=""><strong>Scaling Environments for LLM Agents in the Era of
-Learning from Interaction: A Survey</strong></a>
+    <a href="https://arxiv.org/abs/2511.09586"><strong>Scaling Environments for LLM Agents in the Era of Learning from Interaction: A Survey</strong></a>
   </p>
 </div>
 
@@ -227,13 +226,14 @@ We welcome contributions! If you have a paper that fits into this framework, ple
 If you find our survey and this repository useful for your research, please consider citing our work:
 
 ```bibtex
-@inproceedings{
-huang2025scaling,
-title={Scaling Environments for {LLM} Agents: Fundamentals, Approaches, and Future Directions},
-author={Yuchen Huang and Sijia Li and Zhiyuan Fan and Minghao LIU and Wei Liu and Yi R. Fung},
-booktitle={Workshop on Scaling Environments for Agents},
-year={2025},
-url={https://openreview.net/forum?id=9axZcDTiJm}
+@misc{huang2025scalingenvironmentsllmagents,
+      title={Scaling Environments for LLM Agents in the Era of Learning from Interaction: A Survey}, 
+      author={Yuchen Huang and Sijia Li and Minghao Liu and Wei Liu and Shijue Huang and Zhiyuan Fan and Hou Pong Chan and Yi R. Fung},
+      year={2025},
+      eprint={2511.09586},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2511.09586}, 
 }
 ```
 
