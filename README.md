@@ -23,7 +23,7 @@ Learning from Interaction: A Survey</strong></a>
   </a>
 </div>
 
-## 🎉 Introduction
+## 👋 Introduction
 
 <div align="center">
   <img src="image/teaser.jpg" alt="(A) Experience arises from the Generation–Execution–Feedback (GEF) loop, where environments generate tasks, agents execute them, and environments evaluate and filter useful experience for RL training. (B) Overview of environment scaling: a GEF-aligned taxonomy of environment-scaling methods, alongside implementation, applications, and the unique challenge of Generator–Verifier asymmetry." width="800">
@@ -57,14 +57,14 @@ This collection is for researchers, developers, and enthusiasts eager to explore
   <em>GEF-aligned taxonomy of environment scaling.</em>
 </div>
 
-<!-- ## 🔔 News
--   **[2025-07]** We have released ["Thinking with Images for Multimodal Reasoning: Foundations, Methods, and Future Frontiers"](https://arxiv.org/pdf/2506.23918), the **first comprehensive survey** dedicated to the emerging paradigm of "Think with Images". 
--   **[2025-06]** We created this repository to maintain a paper list on Awesome-Think-With-Images. Contributions are welcome!
--   **[2025-05]** We are excited to release **[OpenThinkIMG](https://github.com/OpenThinkIMG/OpenThinkIMG)**, the first dedicated end-to-end open-source framework designed to empower LVLMs to truly **think with images**! For ease of use, we've configured a Docker environment. We warmly invite the community to explore, use, and contribute. -->
+## 🎉 News
+-   **2025.11** We have released the survey paper ["Scaling Environments for LLM Agents in the Era of Learning from Interaction: A Survey"](https://arxiv.org/pdf/2511.09586). The arXiv page is now available.
+-   **2025.10** The survey paper has been accepted by [SEA @ NeurIPS 2025](https://sea-workshop.github.io/) and will be presented on December 7th in San Diego, USA.
 
 ## 📜 Table of Contents
 - [🏖️ Awesome-Environment-Scaling](#️-awesome-environment-scaling)
-  - [🎉 Introduction](#-introduction)
+  - [👋 Introduction](#-introduction)
+  - [🎉 News](#-news)
   - [📜 Table of Contents](#-table-of-contents)
   - [🎯 Stage 1: Task Generation](#-stage-1-task-generation)
     - [➤ Complexity Scaling](#-complexity-scaling)
