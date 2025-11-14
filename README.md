@@ -12,7 +12,7 @@ Learning from Interaction: A Survey</strong></a>
 
 
 <div align="center">
-  <a href="https://openreview.net/pdf?id=9axZcDTiJm">
+  <a href="https://arxiv.org/pdf/2511.09586">
     <img src="https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper">
   </a>
   <a href="https://github.com/lukahhcm/Awesome_Environment_Scaling">
