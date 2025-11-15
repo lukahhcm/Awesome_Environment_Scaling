@@ -99,6 +99,7 @@ Compositional
 - [Compositional Task Representations for Large Language Models](https://openreview.net/forum?id=6axIMJA7ME3)
 
 Graph-based
+- [Graph2Eval: Automatic Multimodal Task Generation for Agents via Knowledge Graphs](https://arxiv.org/abs/2510.00507) ![](https://img.shields.io/badge/abs-2025.10-red)
 - [WebSailor: Navigating Super-human Reasoning for Web Agent](https://arxiv.org/abs/2507.02592) ![](https://img.shields.io/badge/abs-2025.07-red)
 - [WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization](https://arxiv.org/abs/2507.15061) ![](https://img.shields.io/badge/abs-2025.07-red)
 - [WebDancer: Towards Autonomous Information Seeking Agency](https://arxiv.org/abs/2505.22648) ![](https://img.shields.io/badge/abs-2025.05-red)
