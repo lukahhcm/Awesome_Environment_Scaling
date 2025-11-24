@@ -89,26 +89,32 @@ In the task generation stage, the environment is required to propose challenging
 *Static complexity increases a task’s inherent structural intricacy, moving beyond single-step commands to challenges defined by dependencies, logical flows, and hierarchical relationships.*
 
 Sequential
-- [$C^3$-Bench: The Things Real Disturbing LLM based Agent in Multi-Tasking](https://arxiv.org/abs/2505.18746v1) ![](https://img.shields.io/badge/abs-2025.05-red)
 - [$\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains](https://arxiv.org/abs/2406.12045) ![](https://img.shields.io/badge/abs-2024.06-red)
 - [The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models](https://openreview.net/forum?id=2GmDdhBdDk)
 - [ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](https://arxiv.org/abs/2307.16789) ![](https://img.shields.io/badge/abs-2023.07-red)
 
 Compositional
+- [Beyond Ten Turns: Unlocking Long-Horizon Agentic
+Search with Large-Scale Asynchronous RL](https://arxiv.org/pdf/2508.07976) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [Taskcraft: Automated generation of agentic tasks.](https://arxiv.org/abs/2506.10055) ![](https://img.shields.io/badge/abs-2025.06-red)
+- [$C^3$-Bench: The Things Real Disturbing LLM based Agent in Multi-Tasking](https://arxiv.org/abs/2505.18746v1) ![](https://img.shields.io/badge/abs-2025.05-red)
 - [Compositional Task Representations for Large Language Models](https://openreview.net/forum?id=6axIMJA7ME3)
-
-Graph-based
-- [WebSailor: Navigating Super-human Reasoning for Web Agent](https://arxiv.org/abs/2507.02592) ![](https://img.shields.io/badge/abs-2025.07-red)
-- [WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization](https://arxiv.org/abs/2507.15061) ![](https://img.shields.io/badge/abs-2025.07-red)
 - [WebDancer: Towards Autonomous Information Seeking Agency](https://arxiv.org/abs/2505.22648) ![](https://img.shields.io/badge/abs-2025.05-red)
 - [WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/abs/2501.07572) ![](https://img.shields.io/badge/abs-2025.01-red)
+
+Graph-based
+- [WebLeaper: Empowering Efficiency and Efficacy in
+WebAgent via Enabling Info-Rich Seeking](https://arxiv.org/abs/2510.24697) ![](https://img.shields.io/badge/abs-2025.10-red)
+- [WebSailor-V2: Bridging the Chasm to Proprietary Agents via Synthetic Data and Scalable Reinforcement Learning](https://arxiv.org/abs/2509.13305) ![](https://img.shields.io/badge/abs-2025.09-red)
+- [WebExplorer: Explore and Evolve for Training Long-Horizon Web Agents](https://arxiv.org/abs/2509.06501) ![](https://img.shields.io/badge/abs-2025.09-red)
+- [WebSailor: Navigating Super-human Reasoning for Web Agent](https://arxiv.org/abs/2507.02592) ![](https://img.shields.io/badge/abs-2025.07-red)
+- [WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization](https://arxiv.org/abs/2507.15061) ![](https://img.shields.io/badge/abs-2025.07-red)
+
 
 ### ➤ Dynamic Scaling
 *Scaling dynamics establishes non-stationary learning targets and distinct action and state spaces, which is critical for encouraging robust agent generalization*
 
 Task Difficulty Dynamics
-- [Eurekaverse: Environment Curriculum Generation via Large Language Models](https://arxiv.org/abs/2411.01775) ![](https://img.shields.io/badge/abs-2024.11-red)
 - [WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning](https://arxiv.org/abs/2411.02337) ![](https://img.shields.io/badge/abs-2024.11-red)
 - [AgentGen: Enhancing Planning Abilities for Large Language Model based Agent via Environment and Task Generation](https://arxiv.org/abs/2408.00764) ![](https://img.shields.io/badge/abs-2024.08-red) 
 - [AgentGym: Evolving Large Language Model-based Agents across Diverse Environments](https://arxiv.org/abs/2406.04151) ![](https://img.shields.io/badge/abs-2024.06-red) 
