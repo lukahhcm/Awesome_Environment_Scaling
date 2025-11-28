@@ -89,13 +89,13 @@ In the task generation stage, the environment is required to propose challenging
 *Static complexity increases a task’s inherent structural intricacy, moving beyond single-step commands to challenges defined by dependencies, logical flows, and hierarchical relationships.*
 
 Sequential
+- [ToolHop: A Query-Driven Benchmark for Evaluating Large Language Models in Multi-Hop Tool Use](https://arxiv.org/abs/2501.02506) ![](https://img.shields.io/badge/abs-2025.01-red)
 - [$\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains](https://arxiv.org/abs/2406.12045) ![](https://img.shields.io/badge/abs-2024.06-red)
 - [The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models](https://openreview.net/forum?id=2GmDdhBdDk)
 - [ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](https://arxiv.org/abs/2307.16789) ![](https://img.shields.io/badge/abs-2023.07-red)
 
 Compositional
-- [Beyond Ten Turns: Unlocking Long-Horizon Agentic
-Search with Large-Scale Asynchronous RL](https://arxiv.org/pdf/2508.07976) ![](https://img.shields.io/badge/abs-2025.08-red)
+-[Beyond Ten Turns: Unlocking Long-Horizon Agentic Search with Large-Scale Asynchronous RL](https://arxiv.org/pdf/2508.07976) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [Taskcraft: Automated generation of agentic tasks.](https://arxiv.org/abs/2506.10055) ![](https://img.shields.io/badge/abs-2025.06-red)
 - [$C^3$-Bench: The Things Real Disturbing LLM based Agent in Multi-Tasking](https://arxiv.org/abs/2505.18746v1) ![](https://img.shields.io/badge/abs-2025.05-red)
 - [Compositional Task Representations for Large Language Models](https://openreview.net/forum?id=6axIMJA7ME3)
@@ -103,8 +103,7 @@ Search with Large-Scale Asynchronous RL](https://arxiv.org/pdf/2508.07976) ![](h
 - [WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/abs/2501.07572) ![](https://img.shields.io/badge/abs-2025.01-red)
 
 Graph-based
-- [WebLeaper: Empowering Efficiency and Efficacy in
-WebAgent via Enabling Info-Rich Seeking](https://arxiv.org/abs/2510.24697) ![](https://img.shields.io/badge/abs-2025.10-red)
+- [WebLeaper: Empowering Efficiency and Efficacy in WebAgent via Enabling Info-Rich Seeking](https://arxiv.org/abs/2510.24697) ![](https://img.shields.io/badge/abs-2025.10-red)
 - [WebSailor-V2: Bridging the Chasm to Proprietary Agents via Synthetic Data and Scalable Reinforcement Learning](https://arxiv.org/abs/2509.13305) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [WebExplorer: Explore and Evolve for Training Long-Horizon Web Agents](https://arxiv.org/abs/2509.06501) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [WebSailor: Navigating Super-human Reasoning for Web Agent](https://arxiv.org/abs/2507.02592) ![](https://img.shields.io/badge/abs-2025.07-red)
@@ -136,28 +135,31 @@ Environmental Dynamics
 In the task execution stage, after the agent takes an action, it receives an observation from the environment. Consequently, whether the agent can interact with the environment in real time (interactivity) and whether the returned observations are consistent with real-world scenarios (realism) are both critical to the quality of the resulting experience. 
 ### ➤ Interactivity Scaling
 - [MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents via Model, Context, and Interactive Scaling](https://arxiv.org/abs/2511.11793) ![](https://img.shields.io/badge/abs-2025.11-red)
+- [OSWorld-MCP: Benchmarking MCP Tool Invocation In Computer-Use Agents](https://arxiv.org/abs/2510.24563) ![](https://img.shields.io/badge/abs-2025.10-red)
 - [Towards General Agentic Intelligence via Environment Scaling](https://arxiv.org/abs/2509.13311) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [BrowseMaster: Towards Scalable Web Browsing via Tool-Augmented Programmatic Agent Pair](https://arxiv.org/abs/2508.09129) ![](https://img.shields.io/badge/abs-2025.08-red)
-- [MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers](https://arxiv.org/abs/2508.14704) ![](https://img.shields.io/badge/abs-2025.08-red)
-- [MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers](https://www.arxiv.org/abs/2508.20453) ![](https://img.shields.io/badge/abs-2025.08-red)
-- [MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool Use Benchmark](https://arxiv.org/abs/2508.07575) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [Procedural Environment Generation for Tool-Use Agents](https://arxiv.org/abs/2506.11045) ![](https://img.shields.io/badge/abs-2025.06-red)
 - [AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents](https://arxiv.org/abs/2407.18901) ![](https://img.shields.io/badge/abs-2024.07-red)
 - [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206) ![](https://img.shields.io/badge/abs-2022.07-red)
+- [Tongyi DeepResearch: A New Era of Open-Source AI Researchers](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/)
 
 ### ➤ Realism Scaling
 - [ARE: Scaling Up Agent Environments and Evaluations](https://arxiv.org/abs/2509.17158) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [Towards General Agentic Intelligence via Environment Scaling](https://arxiv.org/abs/2509.13311) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://arxiv.org/abs/2508.08791) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers](https://arxiv.org/abs/2508.14704) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers](https://www.arxiv.org/abs/2508.20453) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool Use Benchmark](https://arxiv.org/abs/2508.07575) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [Making REST APIs Agent-Ready: From OpenAPI to Model Context Protocol Servers for Tool-Augmented LLMs](https://arxiv.org/abs/2507.16044v2) ![](https://img.shields.io/badge/abs-2025.07-red)
 - [$\tau^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment](https://arxiv.org/abs/2506.07982) ![](https://img.shields.io/badge/abs-2025.06-red)
+- [Scaling Computer-Use Grounding via User Interface Decomposition and Synthesis](https://arxiv.org/abs/2505.13227) ![](https://img.shields.io/badge/abs-2025.05-red)
 - [APIGen-MT: Agentic Pipeline for Multi-Turn Data Generation via Simulated Agent-Human Interplay](https://arxiv.org/abs/2504.03601) ![](https://img.shields.io/badge/abs-2025.04-red)
 - [WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/abs/2501.07572) ![](https://img.shields.io/badge/abs-2025.02-red)
 - [AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society](https://arxiv.org/abs/2502.08691) ![](https://img.shields.io/badge/abs-2025.02-red)
-- [ToolHop: A Query-Driven Benchmark for Evaluating Large Language Models in Multi-Hop Tool Use](https://arxiv.org/abs/2501.02506) ![](https://img.shields.io/badge/abs-2025.01-red)
 - [OASIS: Open Agent Social Interaction Simulations with One Million Agents](https://arxiv.org/abs/2411.11581) ![](https://img.shields.io/badge/abs-2024.11-red)
-- [$\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains](https://arxiv.org/abs/2406.12045) ![](https://img.shields.io/badge/abs-2024.06-red)
+- [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972) ![](https://img.shields.io/badge/abs-2024.04-red)
 - [RestGPT: Connecting Large Language Models with Real-World RESTful APIs](https://arxiv.org/abs/2306.06624) ![](https://img.shields.io/badge/abs-2023.06-red)
+- [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206) ![](https://img.shields.io/badge/abs-2022.07-red)
 - [Tongyi DeepResearch: A New Era of Open-Source AI Researchers](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/)
 
 
