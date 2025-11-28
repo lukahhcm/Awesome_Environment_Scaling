@@ -126,7 +126,10 @@ Environmental Dynamics
 
 ### ➤ Diversity Scaling
 *Scaling the diversity of tasks and environments is essential for developing robust and generalizable LLM agents.*
+- [AutoEnv: Automated Environments for Measuring Cross-Environment Agent Learning](https://arxiv.org/abs/2511.19304) ![](https://img.shields.io/badge/abs-2025.11-red)
+- [ARE: Scaling Up Agent Environments and Evaluations](https://arxiv.org/abs/2509.17158) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [R-Zero: Self-Evolving Reasoning LLM from Zero Data](https://arxiv.org/abs/2508.05004) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [Taskcraft: Automated generation of agentic tasks.](https://arxiv.org/abs/2506.10055) ![](https://img.shields.io/badge/abs-2025.06-red)
 - [AgentSense: Virtual Sensor Data Generation Using LLM Agents in Simulated Home Environments](https://arxiv.org/abs/2506.11773) ![](https://img.shields.io/badge/abs-2025.06-red)
 - [AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories](https://arxiv.org/abs/2410.07706) ![](https://img.shields.io/badge/abs-2024.10-red)
 - [AgentGym: Evolving Large Language Model-based Agents across Diverse Environments](https://arxiv.org/abs/2406.04151) ![](https://img.shields.io/badge/abs-2024.06-red) 
