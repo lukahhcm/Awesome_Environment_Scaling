@@ -17,7 +17,7 @@
   <a href="https://github.com/lukahhcm/Awesome_Environment_Scaling">
     <img src="https://img.shields.io/badge/Environment_Scaling-000000?style=for-the-badge&logo=github&logoColor=000&logoColor=white" alt="Github">
   </a>
-  <a href="">
+  <a href="https://huggingface.co/papers/2511.09586">
     <img src="https://img.shields.io/badge/HuggingFace-fcd022?style=for-the-badge&logo=huggingface&logoColor=000" alt="Hugging Face Collection">
   </a>
 </div>
