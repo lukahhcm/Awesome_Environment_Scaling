@@ -154,6 +154,8 @@ In the task execution stage, after the agent takes an action, it receives an obs
 - [UserBench: An Interactive Gym Environment for User-Centric Agents](https://arxiv.org/abs/2507.22034) ![](https://img.shields.io/badge/abs-2025.07-red)
 - [Procedural Environment Generation for Tool-Use Agents](https://arxiv.org/abs/2506.11045) ![](https://img.shields.io/badge/abs-2025.06-red)
 - [AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents](https://arxiv.org/abs/2407.18901) ![](https://img.shields.io/badge/abs-2024.07-red)
+- [AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents](https://arxiv.org/abs/2405.14573) ![](https://img.shields.io/badge/abs-2024.05-red)
+- [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972) ![](https://img.shields.io/badge/abs-2024.04-red)
 - [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206) ![](https://img.shields.io/badge/abs-2022.07-red)
 
 ### ➤ Realism Scaling
