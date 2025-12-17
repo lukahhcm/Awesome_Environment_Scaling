@@ -114,23 +114,33 @@ Graph-based
 *Scaling dynamics establishes non-stationary learning targets and distinct action and state spaces, which is critical for encouraging robust agent generalization*
 
 Task Difficulty Dynamics
+- [Beyond Fixed Tasks: Unsupervised Environment Design for Task-Level Pairs](https://arxiv.org/abs/2511.12706) ![](https://img.shields.io/badge/abs-2025.11-red)
+- [LLMs as Scalable, General-Purpose Simulators
+For Evolving Digital Agent Training](https://arxiv.org/abs/2510.14969) ![](https://img.shields.io/badge/abs-2025.10-red)
+- [EvoCurr: Self-evolving Curriculum with Behavior Code Generation for Complex Decision-making](https://arxiv.org/abs/2508.09586) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [R-Zero: Self-Evolving Reasoning LLM from Zero Data](https://arxiv.org/abs/2508.05004) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [All Life is Problem Creation: Learning to Generate Environments that Maximize Performance Gain](https://openreview.net/forum?id=ve3AkXGM73)
 - [WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning](https://arxiv.org/abs/2411.02337) ![](https://img.shields.io/badge/abs-2024.11-red)
 - [AgentGen: Enhancing Planning Abilities for Large Language Model based Agent via Environment and Task Generation](https://arxiv.org/abs/2408.00764) ![](https://img.shields.io/badge/abs-2024.08-red) 
 - [AgentGym: Evolving Large Language Model-based Agents across Diverse Environments](https://arxiv.org/abs/2406.04151) ![](https://img.shields.io/badge/abs-2024.06-red) 
-- [EvoCurr: Self-evolving Curriculum with Behavior Code Generation for Complex Decision-making](https://arxiv.org/abs/2508.09586) ![](https://img.shields.io/badge/abs-2025.08-red)
-- [R-Zero: Self-Evolving Reasoning LLM from Zero Data](https://arxiv.org/abs/2508.05004) ![](https://img.shields.io/badge/abs-2025.08-red)
 
 Environmental Dynamics
+- [RLVE: Scaling Up Reinforcement Learning for Language Models
+with Adaptive Verifiable Environments](https://arxiv.org/abs/2511.07317) ![](https://img.shields.io/badge/abs-2025.11-red)
 - [ARE: Scaling Up Agent Environments and Evaluations](https://arxiv.org/abs/2509.17158) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents](https://arxiv.org/abs/2403.12014) ![](https://img.shields.io/badge/abs-2024.03-red)
 
 ### ➤ Diversity Scaling
 *Scaling the diversity of tasks and environments is essential for developing robust and generalizable LLM agents.*
+- [RLVE: Scaling Up Reinforcement Learning for Language Models
+with Adaptive Verifiable Environments](https://arxiv.org/abs/2511.07317) ![](https://img.shields.io/badge/abs-2025.11-red)
 - [AutoEnv: Automated Environments for Measuring Cross-Environment Agent Learning](https://arxiv.org/abs/2511.19304) ![](https://img.shields.io/badge/abs-2025.11-red)
 - [ARE: Scaling Up Agent Environments and Evaluations](https://arxiv.org/abs/2509.17158) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [R-Zero: Self-Evolving Reasoning LLM from Zero Data](https://arxiv.org/abs/2508.05004) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents](https://arxiv.org/abs/2506.14205) ![](https://img.shields.io/badge/abs-2025.06-red)
 - [Taskcraft: Automated generation of agentic tasks.](https://arxiv.org/abs/2506.10055) ![](https://img.shields.io/badge/abs-2025.06-red)
 - [AgentSense: Virtual Sensor Data Generation Using LLM Agents in Simulated Home Environments](https://arxiv.org/abs/2506.11773) ![](https://img.shields.io/badge/abs-2025.06-red)
+- [BoxingGym: Benchmarking Progress in Automated Experimental Design and Model Discovery](https://arxiv.org/abs/2501.01540) ![](https://img.shields.io/badge/abs-2025.01-red)
 - [AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories](https://arxiv.org/abs/2410.07706) ![](https://img.shields.io/badge/abs-2024.10-red)
 - [AgentGym: Evolving Large Language Model-based Agents across Diverse Environments](https://arxiv.org/abs/2406.04151) ![](https://img.shields.io/badge/abs-2024.06-red) 
 
@@ -141,14 +151,14 @@ In the task execution stage, after the agent takes an action, it receives an obs
 - [OSWorld-MCP: Benchmarking MCP Tool Invocation In Computer-Use Agents](https://arxiv.org/abs/2510.24563) ![](https://img.shields.io/badge/abs-2025.10-red)
 - [Towards General Agentic Intelligence via Environment Scaling](https://arxiv.org/abs/2509.13311) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [BrowseMaster: Towards Scalable Web Browsing via Tool-Augmented Programmatic Agent Pair](https://arxiv.org/abs/2508.09129) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [UserBench: An Interactive Gym Environment for User-Centric Agents](https://arxiv.org/abs/2507.22034) ![](https://img.shields.io/badge/abs-2025.07-red)
 - [Procedural Environment Generation for Tool-Use Agents](https://arxiv.org/abs/2506.11045) ![](https://img.shields.io/badge/abs-2025.06-red)
 - [AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents](https://arxiv.org/abs/2407.18901) ![](https://img.shields.io/badge/abs-2024.07-red)
 - [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206) ![](https://img.shields.io/badge/abs-2022.07-red)
-- [Tongyi DeepResearch: A New Era of Open-Source AI Researchers](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/)
 
 ### ➤ Realism Scaling
-- [ARE: Scaling Up Agent Environments and Evaluations](https://arxiv.org/abs/2509.17158) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [Towards General Agentic Intelligence via Environment Scaling](https://arxiv.org/abs/2509.13311) ![](https://img.shields.io/badge/abs-2025.09-red)
+- [Tongyi DeepResearch: A New Era of Open-Source AI Researchers](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/)
 - [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://arxiv.org/abs/2508.08791) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers](https://arxiv.org/abs/2508.14704) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers](https://www.arxiv.org/abs/2508.20453) ![](https://img.shields.io/badge/abs-2025.08-red)
@@ -158,13 +168,19 @@ In the task execution stage, after the agent takes an action, it receives an obs
 - [Scaling Computer-Use Grounding via User Interface Decomposition and Synthesis](https://arxiv.org/abs/2505.13227) ![](https://img.shields.io/badge/abs-2025.05-red)
 - [APIGen-MT: Agentic Pipeline for Multi-Turn Data Generation via Simulated Agent-Human Interplay](https://arxiv.org/abs/2504.03601) ![](https://img.shields.io/badge/abs-2025.04-red)
 - [WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/abs/2501.07572) ![](https://img.shields.io/badge/abs-2025.02-red)
-- [AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society](https://arxiv.org/abs/2502.08691) ![](https://img.shields.io/badge/abs-2025.02-red)
-- [OASIS: Open Agent Social Interaction Simulations with One Million Agents](https://arxiv.org/abs/2411.11581) ![](https://img.shields.io/badge/abs-2024.11-red)
 - [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972) ![](https://img.shields.io/badge/abs-2024.04-red)
+- [WebArena Verified: Reliable Evaluation for Web Agents](https://openreview.net/forum?id=94tlGxmqkN)
+- [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854) ![](https://img.shields.io/badge/abs-2023.07-red)
 - [RestGPT: Connecting Large Language Models with Real-World RESTful APIs](https://arxiv.org/abs/2306.06624) ![](https://img.shields.io/badge/abs-2023.06-red)
 - [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206) ![](https://img.shields.io/badge/abs-2022.07-red)
-- [Tongyi DeepResearch: A New Era of Open-Source AI Researchers](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/)
 
+Multi-agent Realism
+- [ARE: Scaling Up Agent Environments and Evaluations](https://arxiv.org/abs/2509.17158) ![](https://img.shields.io/badge/abs-2025.09-red)
+- [A Parallelized Framework for Simulating Large-Scale LLM Agents with Realistic Environments and Interactions](https://aclanthology.org/2025.acl-industry.94/)
+- [Licence to Scale: A Microservice Simulation Environment for Benchmarking Agentic AI](https://openreview.net/forum?id=03xThlPUxU)
+- [Enabling multi-agent collaboration in knowledge graph environments](https://openreview.net/forum?id=xUDGChZsfG)
+- [AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society](https://arxiv.org/abs/2502.08691) ![](https://img.shields.io/badge/abs-2025.02-red)
+- [OASIS: Open Agent Social Interaction Simulations with One Million Agents](https://arxiv.org/abs/2411.11581) ![](https://img.shields.io/badge/abs-2024.11-red)
 
 ## ⚖️ Stage 3: Feedback
 In the feedback stage, the environment assesses the trajectories collected during task execution and generates feedback signals for subsequent RL training. Scaling at this stage focuses on how feedback is provided, including its frequency and richness (density and granularity), its level of automation (automation), as well as how objectively and reliably it is delivered (objectivity and robustness).
@@ -185,6 +201,7 @@ Process-based Rewards
 - [On Designing Effective RL Reward at Training Time for LLM Reasoning](https://arxiv.org/abs/2410.15115) ![](https://img.shields.io/badge/abs-2024.10-red)
 
 ### ➤ Granularity Scaling
+- [DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research](https://arxiv.org/abs/2511.19399) ![](https://img.shields.io/badge/abs-2025.11-red)
 - [Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training](https://arxiv.org/abs/2509.21500) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning](https://arxiv.org/abs/2508.16949) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [Reinforcement Learning with Rubric Anchors](https://arxiv.org/abs/2508.12790) ![](https://img.shields.io/badge/abs-2025.08-red)
