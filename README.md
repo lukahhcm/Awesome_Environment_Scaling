@@ -113,7 +113,8 @@ Graph-based
 ### ➤ Dynamic Scaling
 *Scaling dynamics establishes non-stationary learning targets and distinct action and state spaces, which is critical for encouraging robust agent generalization*
 
-Task Difficulty Dynamics
+- [RLVE: Scaling Up Reinforcement Learning for Language Models
+with Adaptive Verifiable Environments](https://arxiv.org/abs/2511.07317) ![](https://img.shields.io/badge/abs-2025.11-red)
 - [Beyond Fixed Tasks: Unsupervised Environment Design for Task-Level Pairs](https://arxiv.org/abs/2511.12706) ![](https://img.shields.io/badge/abs-2025.11-red)
 - [LLMs as Scalable, General-Purpose Simulators
 For Evolving Digital Agent Training](https://arxiv.org/abs/2510.14969) ![](https://img.shields.io/badge/abs-2025.10-red)
@@ -123,11 +124,6 @@ For Evolving Digital Agent Training](https://arxiv.org/abs/2510.14969) ![](https
 - [WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning](https://arxiv.org/abs/2411.02337) ![](https://img.shields.io/badge/abs-2024.11-red)
 - [AgentGen: Enhancing Planning Abilities for Large Language Model based Agent via Environment and Task Generation](https://arxiv.org/abs/2408.00764) ![](https://img.shields.io/badge/abs-2024.08-red) 
 - [AgentGym: Evolving Large Language Model-based Agents across Diverse Environments](https://arxiv.org/abs/2406.04151) ![](https://img.shields.io/badge/abs-2024.06-red) 
-
-Environmental Dynamics
-- [RLVE: Scaling Up Reinforcement Learning for Language Models
-with Adaptive Verifiable Environments](https://arxiv.org/abs/2511.07317) ![](https://img.shields.io/badge/abs-2025.11-red)
-- [ARE: Scaling Up Agent Environments and Evaluations](https://arxiv.org/abs/2509.17158) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents](https://arxiv.org/abs/2403.12014) ![](https://img.shields.io/badge/abs-2024.03-red)
 
 ### ➤ Diversity Scaling
