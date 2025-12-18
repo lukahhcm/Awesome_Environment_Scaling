@@ -57,7 +57,7 @@ This collection is for researchers, developers, and enthusiasts eager to explore
 </div>
 
 ## 🎉 News
--   **2025.12** Update a new arXiv version of our survey paper ["EnviSAgE: A Survey of Environment Scaling for Qualitative Agentic Experience Collection"](https://arxiv.org/pdf/2511.09586). 
+-   **2025.12** A new version of our survey paper ["EnviSAgE: A Survey of Environment Scaling for Qualitative Agentic Experience Collection"](https://arxiv.org/pdf/2511.09586) is updated on arXiv. 
 -   **2025.11** We have released the survey paper ["Scaling Environments for LLM Agents in the Era of Learning from Interaction: A Survey"](https://arxiv.org/pdf/2511.09586). The arXiv page is now available.
 -   **2025.10** The survey paper has been accepted by [SEA @ NeurIPS 2025](https://sea-workshop.github.io/) and will be presented on December 7th in San Diego, USA.
 
