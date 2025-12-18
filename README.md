@@ -5,7 +5,7 @@
 
   <p align="center">
     This repository accompanies our survey paper: <br>
-    <a href="https://arxiv.org/abs/2511.09586"><strong>Scaling Environments for LLM Agents in the Era of Learning from Interaction: A Survey</strong></a>
+    <a href="https://arxiv.org/abs/2511.09586"><strong>EnviSAgE: A Survey of Environment Scaling for Qualitative Agentic Experience Collection</strong></a>
   </p>
 </div>
 
@@ -57,6 +57,7 @@ This collection is for researchers, developers, and enthusiasts eager to explore
 </div>
 
 ## 🎉 News
+-   **2025.12** Update a new arXiv version of our survey paper ["EnviSAgE: A Survey of Environment Scaling for Qualitative Agentic Experience Collection"](https://arxiv.org/pdf/2511.09586). 
 -   **2025.11** We have released the survey paper ["Scaling Environments for LLM Agents in the Era of Learning from Interaction: A Survey"](https://arxiv.org/pdf/2511.09586). The arXiv page is now available.
 -   **2025.10** The survey paper has been accepted by [SEA @ NeurIPS 2025](https://sea-workshop.github.io/) and will be presented on December 7th in San Diego, USA.
 
@@ -111,7 +112,7 @@ Graph-based
 
 
 ### ➤ Dynamic Scaling
-*Scaling dynamics establishes non-stationary learning targets and distinct action and state spaces, which is critical for encouraging robust agent generalization*
+*Scaling dynamics focuses on creating an environment that changes task complexity based on agent performance, helping agents learn and adapt to new challenges and goals.*
 
 - [RLVE: Scaling Up Reinforcement Learning for Language Models
 with Adaptive Verifiable Environments](https://arxiv.org/abs/2511.07317) ![](https://img.shields.io/badge/abs-2025.11-red)
@@ -127,7 +128,7 @@ For Evolving Digital Agent Training](https://arxiv.org/abs/2510.14969) ![](https
 - [EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents](https://arxiv.org/abs/2403.12014) ![](https://img.shields.io/badge/abs-2024.03-red)
 
 ### ➤ Diversity Scaling
-*Scaling the diversity of tasks and environments is essential for developing robust and generalizable LLM agents.*
+*Scaling the diversity of environments and tasks is crucial for preventing agents from overfitting to specific action patterns, thereby fostering more robust and generalizable performances.*
 - [RLVE: Scaling Up Reinforcement Learning for Language Models
 with Adaptive Verifiable Environments](https://arxiv.org/abs/2511.07317) ![](https://img.shields.io/badge/abs-2025.11-red)
 - [AutoEnv: Automated Environments for Measuring Cross-Environment Agent Learning](https://arxiv.org/abs/2511.19304) ![](https://img.shields.io/badge/abs-2025.11-red)
@@ -141,8 +142,9 @@ with Adaptive Verifiable Environments](https://arxiv.org/abs/2511.07317) ![](htt
 - [AgentGym: Evolving Large Language Model-based Agents across Diverse Environments](https://arxiv.org/abs/2406.04151) ![](https://img.shields.io/badge/abs-2024.06-red) 
 
 ## 🧗 Stage 2: Task Execution
-In the task execution stage, after the agent takes an action, it receives an observation from the environment. Consequently, whether the agent can interact with the environment in real time (interactivity) and whether the returned observations are consistent with real-world scenarios (realism) are both critical to the quality of the resulting experience. 
+In the task execution stage, interaction takes the form of the agent taking an action and receiving an observation from the environment. We organize works towards environment scaling in this stage into two dimensions: interactivity scaling and realism scaling. *Interactivity* learns how agent performance affected by the frequency of tool interaction, while *Realism* focuses on making observations more realistic to enhance the interaction quality.
 ### ➤ Interactivity Scaling
+*Interactivity concerns whether the environment is executable and whether the agent is blind to the returns of intermediate steps.*
 - [MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents via Model, Context, and Interactive Scaling](https://arxiv.org/abs/2511.11793) ![](https://img.shields.io/badge/abs-2025.11-red)
 - [OSWorld-MCP: Benchmarking MCP Tool Invocation In Computer-Use Agents](https://arxiv.org/abs/2510.24563) ![](https://img.shields.io/badge/abs-2025.10-red)
 - [Towards General Agentic Intelligence via Environment Scaling](https://arxiv.org/abs/2509.13311) ![](https://img.shields.io/badge/abs-2025.09-red)
@@ -155,6 +157,7 @@ In the task execution stage, after the agent takes an action, it receives an obs
 - [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206) ![](https://img.shields.io/badge/abs-2022.07-red)
 
 ### ➤ Realism Scaling
+*Realism aims to ensure that observations obtained from the environment remain consistent with the real world.*
 - [Towards General Agentic Intelligence via Environment Scaling](https://arxiv.org/abs/2509.13311) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [Tongyi DeepResearch: A New Era of Open-Source AI Researchers](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/)
 - [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://arxiv.org/abs/2508.08791) ![](https://img.shields.io/badge/abs-2025.08-red)
@@ -184,6 +187,8 @@ Multi-agent Realism
 In the feedback stage, the environment assesses the trajectories collected during task execution and generates feedback signals for subsequent RL training. Scaling at this stage focuses on how feedback is provided, including its frequency and richness (density and granularity), its level of automation (automation), as well as how objectively and reliably it is delivered (objectivity and robustness).
 
 ### ➤ Density Scaling
+*The density of feedback refers to how frequently evaluative signals are provided, typically including trajectory-level outcome-based rewards and step-level process-based rewards.*
+
 Outcome-based Rewards 
 - [VerlTool: Towards Holistic Agentic Reinforcement Learning with Tool Use](https://arxiv.org/abs/2509.01055) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [Agent-RLVR: Training Software Engineering Agents via Guidance and Environment Rewards](https://arxiv.org/abs/2506.11425) ![](https://img.shields.io/badge/abs-2025.06-red)
@@ -199,6 +204,7 @@ Process-based Rewards
 - [On Designing Effective RL Reward at Training Time for LLM Reasoning](https://arxiv.org/abs/2410.15115) ![](https://img.shields.io/badge/abs-2024.10-red)
 
 ### ➤ Granularity Scaling
+*Granularity scaling refers to increasing the level of detail in feedback as well as enriching the forms of feedback provided.*
 - [DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research](https://arxiv.org/abs/2511.19399) ![](https://img.shields.io/badge/abs-2025.11-red)
 - [Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training](https://arxiv.org/abs/2509.21500) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning](https://arxiv.org/abs/2508.16949) ![](https://img.shields.io/badge/abs-2025.08-red)
@@ -210,6 +216,7 @@ Process-based Rewards
 - [R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2503.05592) ![](https://img.shields.io/badge/abs-2025.03-red)
 
 ### ➤ Automation Scaling
+*Automation scaling involves the shift of the feedback mechanism from slow, costly, and labor-intensive human feedback to automated evaluations.*
 - [Reinforcement Learning with Rubric Anchors](https://arxiv.org/abs/2508.12790) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains](https://arxiv.org/abs/2507.17746) ![](https://img.shields.io/badge/abs-2025.07-red)
 - [JudgeLRM: Large Reasoning Models as a Judge](https://arxiv.org/abs/2504.00050) ![](https://img.shields.io/badge/abs-2025.04-red)
@@ -219,6 +226,7 @@ Process-based Rewards
 
 
 ### ➤ Objectivity Scaling
+*Objectivity scaling aims to reduce these biases and make automated verifiers fairer.*
 - [ARE: Scaling Up Agent Environments and Evaluations](https://arxiv.org/abs/2509.17158) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [Reinforcement Learning with Rubric Anchors](https://arxiv.org/abs/2508.12790) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains](https://arxiv.org/abs/2507.17746) ![](https://img.shields.io/badge/abs-2025.07-red)
@@ -232,6 +240,8 @@ Process-based Rewards
 
 
 ### ➤ Robustness Scaling
+*Feedback robustness requires the environment to provide stable and reliable reward signals.*
+
 Reward-level
 - [Reward Hacking Mitigation using Verifiable Composite Rewards](https://arxiv.org/abs/2509.15557) ![](https://img.shields.io/badge/abs-2025.09-red)
 - [Reinforcement Learning with Rubric Anchors](https://arxiv.org/abs/2508.12790) ![](https://img.shields.io/badge/abs-2025.08-red)
@@ -242,7 +252,7 @@ Reward-level
 - [InfoRM: Mitigating Reward Hacking in RLHF via Information-Theoretic Reward Modeling](https://arxiv.org/abs/2402.09345) ![](https://img.shields.io/badge/abs-2024.02-red)
 
 Environment-level
-- [Trinity-rft: A general-purpose and unified framework for reinforcement fine-tuning of large language models](https://arxiv.org/abs/2505.17826) ![](https://img.shields.io/badge/abs-2025.05-red)
+- [Trinity-RFT: A general-purpose and unified framework for reinforcement fine-tuning of large language models](https://arxiv.org/abs/2505.17826) ![](https://img.shields.io/badge/abs-2025.05-red)
 - [Tongyi DeepResearch: A New Era of Open-Source AI Researchers](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/)
 <!-- ## 📊 Evaluation & Benchmarks -->
 
