@@ -1,7 +1,7 @@
 # 🏖️ Awesome-Environment-Scaling
 
 <div align="center">
-  <h1 align="center">Scaling Environments: A Crucial Step towards Agent Intelligence</h1>
+  <h1 align="center">Environment Scaling: A Crucial Step towards Agent Intelligence</h1>
 
   <p align="center">
     This repository accompanies our survey paper: <br>
@@ -28,7 +28,7 @@
   <img src="image/teaser.jpg" alt="(A) Experience arises from the Generation–Execution–Feedback (GEF) loop, where environments generate tasks, agents execute them, and environments evaluate and filter useful experience for RL training. (B) Overview of environment scaling: a GEF-aligned taxonomy of environment-scaling methods, alongside implementation, applications, and the unique challenge of Generator–Verifier asymmetry." width="800">
 </div>
 
-Welcome to **Awesome-Scaling-Environments!**
+Welcome to **Awesome-Environment-Scaling!**
 
 As agent capabilities continue to evolve, it is infeasible to attain intelligence beyond the human-level merely by supervised fine-tuning (SFT) pretrained models on static datasets. Such datasets are typically manually annotated or curated under human oversight, which makes them costly and labor-intensive to produce at scale, intrinsically bounded by human-level knowledge, and often lacking realism and adaptability. By contrast, *reinforcement learning* provides a more aligned training paradigm: agents explore and interact with the environment, accumulate experience, and acquire new knowledge and skills. We formalize this interactive process as *the Generation–Execution–Feedback (GEF) loop*. In this setting, the environment is no longer a mere container for agents’ activities; it has become an active producer of experiential data, underscoring the growing need for scaling environments to create a more **complex**, **realistic**, and **richly interactive** world.
 
