@@ -1,11 +1,11 @@
-# 🏖️ Awesome-Environment-Scaling
+# 🔮 Awesome-Environment-Scaling
 
 <div align="center">
   <h1 align="center">Environment Scaling: A Crucial Step towards Agent Intelligence</h1>
 
   <p align="center">
     This repository accompanies our survey paper: <br>
-    <a href="https://arxiv.org/abs/2511.09586"><strong>EnviSAgE: A Survey of Environment Scaling for Qualitative Agentic Experience Collection</strong></a>
+    <a href="https://arxiv.org/abs/2511.09586"><strong>Environment Scaling for Interactive  Agentic Experience Collection: A Survey</strong></a>
   </p>
 </div>
 
@@ -62,7 +62,7 @@ This collection is for researchers, developers, and enthusiasts eager to explore
 -   **2025.10** The survey paper has been accepted by [SEA @ NeurIPS 2025](https://sea-workshop.github.io/) and will be presented on December 7th in San Diego, USA.
 
 ## 📜 Table of Contents
-- [🏖️ Awesome-Environment-Scaling](#️-awesome-environment-scaling)
+- [🔮 Awesome-Environment-Scaling](#-awesome-environment-scaling)
   - [👋 Introduction](#-introduction)
   - [🎉 News](#-news)
   - [📜 Table of Contents](#-table-of-contents)
