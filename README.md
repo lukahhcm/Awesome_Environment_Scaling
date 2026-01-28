@@ -96,7 +96,7 @@ Sequential
 - [ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](https://arxiv.org/abs/2307.16789) ![](https://img.shields.io/badge/abs-2023.07-red)
 
 Compositional
--[Beyond Ten Turns: Unlocking Long-Horizon Agentic Search with Large-Scale Asynchronous RL](https://arxiv.org/pdf/2508.07976) ![](https://img.shields.io/badge/abs-2025.08-red)
+- [Beyond Ten Turns: Unlocking Long-Horizon Agentic Search with Large-Scale Asynchronous RL](https://arxiv.org/pdf/2508.07976) ![](https://img.shields.io/badge/abs-2025.08-red)
 - [Taskcraft: Automated generation of agentic tasks.](https://arxiv.org/abs/2506.10055) ![](https://img.shields.io/badge/abs-2025.06-red)
 - [$C^3$-Bench: The Things Real Disturbing LLM based Agent in Multi-Tasking](https://arxiv.org/abs/2505.18746v1) ![](https://img.shields.io/badge/abs-2025.05-red)
 - [Compositional Task Representations for Large Language Models](https://openreview.net/forum?id=6axIMJA7ME3)
