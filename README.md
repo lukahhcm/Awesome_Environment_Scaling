@@ -171,6 +171,7 @@ In the task execution stage, interaction takes the form of the agent taking an a
 - [WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/abs/2501.07572) ![](https://img.shields.io/badge/abs-2025.02-red)
 - [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972) ![](https://img.shields.io/badge/abs-2024.04-red)
 - [WebArena Verified: Reliable Evaluation for Web Agents](https://openreview.net/forum?id=94tlGxmqkN)
+- [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523) ![](https://img.shields.io/badge/abs-2026.04-red)
 - [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854) ![](https://img.shields.io/badge/abs-2023.07-red)
 - [RestGPT: Connecting Large Language Models with Real-World RESTful APIs](https://arxiv.org/abs/2306.06624) ![](https://img.shields.io/badge/abs-2023.06-red)
 - [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206) ![](https://img.shields.io/badge/abs-2022.07-red)
